@@ -157,8 +157,8 @@ a{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr ;  
- /* align-items: stretch;
-  justify-content: stretch;*/
+  align-items: stretch;
+  justify-content: stretch;
   text-align: center;
   gap: 0.5rem;
   font-size: 2rem;
