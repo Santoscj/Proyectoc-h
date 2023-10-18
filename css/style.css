@@ -58,7 +58,7 @@ a{
     font-family: sans-serif;
     text-align: center;
     margin-top: auto;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
 .logo{
     display: flex;
@@ -83,12 +83,12 @@ a{
     padding: 5rem;
    
 }*/
-.imagenes{
+/*.imagenes{
     height: 20rem;
     width: 20rem;
     border: solid 1rem white;
-/* html servicios*/
-}
+}*/
+/*html servicios*/
 .servicios{
   display: flex;
   margin-top: 2rem;
