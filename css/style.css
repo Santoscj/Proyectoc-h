@@ -12,7 +12,7 @@ a{
 .image-fondo{
   min-height: 100vh;
   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-  url(../images/uñas\ de\ fondo.jfif);
+  url(../images/uñas5.jpg);
   background-size: cover;
   background-position: center;
 
@@ -137,7 +137,7 @@ a{
   .imagen-cont{
     height: 20rem;
     width: 20rem;
-    opacity: 0.7;
+    opacity: 70%;
   }
   .parrafo-cont{
     font-size: 1.5rem;
@@ -148,7 +148,14 @@ a{
     margin-top: 1rem;
     opacity: 0.7;
   }
- 
+  /*carrusel*/
+  .imagen-carrusel{
+    height: 20rem;
+    width: 20rem;
+  }
+  .carrusel-mod{
+    align-items: center;
+  }
   
 /*Pagina Inicio*/
 .inicio{
