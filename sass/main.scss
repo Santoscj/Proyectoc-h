@@ -29,7 +29,7 @@ a{
         padding: 1rem;
         display: flex;
         justify-content: center;
-        opacity: 0.7; 
+        opacity: 80%; 
     }
 }
 
@@ -45,7 +45,6 @@ a{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    opacity: 80%;
     margin: 1rem;
 }
 
@@ -159,7 +158,7 @@ a{
     .logo-whatsapp{
         width: 5rem;
         height: 5rem;
-        opacity: 0.7;
+        opacity: 70%;
        }
 
 }
@@ -170,6 +169,7 @@ a{
     margin-top: 1rem;
     margin-bottom: 3rem;
     margin: 1rem;
+    opacity: 90%;
   
     .titulo-qs{
         padding: 2rem;
@@ -197,14 +197,14 @@ a{
     .imagen-cont{
         height: 20rem;
         width: 20rem;
-        opacity: 70%;
+        opacity: 80%;
       }
     } 
 
 .mapa{
     padding: 1rem;
     margin-top: 1rem;
-    opacity: 0.7;
+    opacity: 80%;
     margin-left: 2rem;
     height: 30rem;
     width: 30rem;
@@ -220,12 +220,6 @@ a{
         height: 25rem;
         width: 10rem; 
     }
-}
-.section-index22{
-    font-size: 3rem;
-    text-align: center;
-    margin-top: auto;
-    padding: 1rem;
 }
 .inicio{
     min-height: 100vh;
@@ -256,25 +250,27 @@ a{
        .desktop {display: none;}
        /*menu hamburguesa*/
        .menu-responsive{
+        z-index:initial;
        .menu{
+        z-index: 5;
         opacity: 0;
         visibility: hidden;
         display: flex;
         flex-direction: column;
         align-items: end;
         gap: 1rem;
-        position: absolute;
+        position: absolute ;
         top: 0;
         right: 0;
         bottom: 0;
         padding: 1rem;
         font-size: 1.5rem;
-        background-color: white;
+        background-color:white;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.767); 
 
      }
      .menu.visible{
-        opacity: 1;
+        opacity: 100%;
         visibility: visible;
      }
      .abrir-menu
